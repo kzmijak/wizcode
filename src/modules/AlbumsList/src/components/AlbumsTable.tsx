@@ -8,7 +8,15 @@ type AlbumsTableProps = {
 
 export const AlbumsTable: FC<AlbumsTableProps> = ({ rows }) => {
   return (
-    <Table aria-label="albums table">
+    <Table
+      aria-label="albums table"
+      borderAxis="none"
+      color="neutral"
+      size="md"
+      stickyHeader
+      stripe="odd"
+      variant="plain"
+    >
       <thead>
         <tr>
           <th>#</th>
