@@ -1,11 +1,28 @@
-import { useState } from "react";
-import { Button } from "@mui/joy";
+import { useEffect, useState } from "react";
+import { extractAlbumModels, fetchTopAlbums } from "api/topAlbums";
+import { RequestStatus } from "models/utils/RequestStatus";
+import { AlbumModel } from "models/Album";
+import { AlbumsTable } from "modules/AlbumsList";
 
 export const App = () => {
-  const [count, setCount] = useState(0);
-  const increaseCount = () => setCount((count) => count + 1);
+  const [albums, setAlbums] = useState<AlbumModel[]>([]);
+  const [status, setStatus] = useState<RequestStatus>("idle");
 
-  return (
-    <Button onClick={increaseCount}>Kliknięto mnie już {count} razy</Button>
-  );
+  useEffect(() => {
+    (async () => {
+      setStatus("loading");
+
+      try {
+        const albumsResponse = await fetchTopAlbums();
+        setAlbums(extractAlbumModels(albumsResponse));
+        setStatus("success");
+      } catch {
+        setStatus("error");
+      }
+    })();
+  }, []);
+
+  if (status !== "success") return null;
+
+  return <AlbumsTable rows={albums} />;
 };
