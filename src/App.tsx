@@ -3,6 +3,7 @@ import { extractAlbumModels, fetchTopAlbums } from "api/topAlbums";
 import { RequestStatus } from "models/utils/RequestStatus";
 import { AlbumModel } from "models/Album";
 import { AlbumsTable } from "modules/AlbumsList";
+import { Sheet } from "@mui/joy";
 
 export const App = () => {
   const [albums, setAlbums] = useState<AlbumModel[]>([]);
@@ -24,5 +25,9 @@ export const App = () => {
 
   if (status !== "success") return null;
 
-  return <AlbumsTable rows={albums} />;
+  return (
+    <Sheet>
+      <AlbumsTable rows={albums} />
+    </Sheet>
+  );
 };
