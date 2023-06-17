@@ -11,7 +11,7 @@ exports[`TitleCell > should match snapshot 1`] = `
         <p
           class="MuiTypography-root MuiTypography-body1 css-lmmucf-JoyTypography-root"
         >
-          Famous Artist
+          Some album name
         </p>
       </td>
     </div>
@@ -23,7 +23,7 @@ exports[`TitleCell > should match snapshot 1`] = `
       <p
         class="MuiTypography-root MuiTypography-body1 css-lmmucf-JoyTypography-root"
       >
-        Famous Artist
+        Some album name
       </p>
     </td>
   </div>,

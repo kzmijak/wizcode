@@ -98,7 +98,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
               >
-                Artist 1
+                Title 1
               </p>
             </td>
             <td
@@ -135,7 +135,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
               >
-                Artist 2
+                Title 2
               </p>
             </td>
             <td
@@ -172,7 +172,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
               >
-                Artist 3
+                Title 3
               </p>
             </td>
             <td
@@ -283,7 +283,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
             <p
               class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
             >
-              Artist 1
+              Title 1
             </p>
           </td>
           <td
@@ -320,7 +320,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
             <p
               class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
             >
-              Artist 2
+              Title 2
             </p>
           </td>
           <td
@@ -357,7 +357,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
             <p
               class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
             >
-              Artist 3
+              Title 3
             </p>
           </td>
           <td
