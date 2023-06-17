@@ -11,10 +11,11 @@ type CategoryChipItemProps = {
 export const CategoryChipItem: FC<CategoryChipItemProps> = ({ category }) => {
   const { categories, categoryToggleUrl } = useCategoryQuery();
   const isActive = categories.includes(category);
-
+  const variant = isActive ? "solid" : "soft";
   return (
     <Chip
-      variant={isActive ? "solid" : "soft"}
+      data-testId={`chip-${category}`}
+      variant={variant}
       component={Link}
       to={categoryToggleUrl(category)}
     >
