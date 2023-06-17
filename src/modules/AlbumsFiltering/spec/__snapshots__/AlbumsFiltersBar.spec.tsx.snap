@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TableNavigation > should match snapshot 1`] = `
+exports[`AlbumsFiltersBar > should match snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -28,6 +28,13 @@ exports[`TableNavigation > should match snapshot 1`] = `
             />
           </div>
         </div>
+        <div
+          class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral css-uxvrk8-JoySheet-root"
+        >
+          <div
+            class="MuiStack-root css-to3yvj-JoyStack-root"
+          />
+        </div>
       </section>
     </div>
   </body>,
@@ -54,6 +61,13 @@ exports[`TableNavigation > should match snapshot 1`] = `
             value=""
           />
         </div>
+      </div>
+      <div
+        class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral css-uxvrk8-JoySheet-root"
+      >
+        <div
+          class="MuiStack-root css-to3yvj-JoyStack-root"
+        />
       </div>
     </section>
   </div>,

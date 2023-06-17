@@ -1,43 +1,40 @@
-import { AlbumsTableRow } from "../../src/models/AlbumsTableRow";
-import { filterRowsByText } from "../../src/utils/filterRowsByText";
+import { AlbumModel } from "models/Album";
+import { filterAlbumsByText } from "../../src/utils/filterAlbumsByText";
 import { describe, it, expect } from "vitest";
 
-const album1: AlbumsTableRow = {
+const album1 = {
   artistName: "Modern Artist 1",
-  imageUrl: "",
   id: "1",
   title: "Title 1",
-};
-const album2: AlbumsTableRow = {
+} as AlbumModel;
+const album2 = {
   artistName: "Modern Artist 2",
-  imageUrl: "",
   id: "2",
   title: "Title 2",
-};
-const album3: AlbumsTableRow = {
+} as AlbumModel;
+const album3 = {
   artistName: "Classical Artist 3",
-  imageUrl: "",
   id: "3",
   title: "Title 3",
-};
+} as AlbumModel;
 
 const source = [album1, album2, album3];
 
-describe("filterRowsByText", () => {
+describe("filterAlbumsByText", () => {
   it("should find filter entries by text from artistName", () => {
-    const result = filterRowsByText(source, "Modern");
+    const result = filterAlbumsByText(source, "Modern");
     expect(result).toContain(album1);
     expect(result).toContain(album2);
     expect(result).not.toContain(album3);
   });
 
   it("should find filter entries by text from title", () => {
-    const result = filterRowsByText(source, "Title 2");
+    const result = filterAlbumsByText(source, "Title 2");
     expect(result).toContain(album2);
   });
 
   it("should find filter entries by text, ignoring casing", () => {
-    const result = filterRowsByText(source, "modern");
+    const result = filterAlbumsByText(source, "modern");
     expect(result).toContain(album1);
   });
 });

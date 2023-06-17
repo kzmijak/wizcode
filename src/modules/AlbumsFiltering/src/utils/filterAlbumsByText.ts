@@ -1,6 +1,6 @@
 import { AlbumModel } from "models/Album";
 
-export const filterRowsByText = (rows: AlbumModel[], text: string) => {
+export const filterAlbumsByText = (rows: AlbumModel[], text: string) => {
   const displayRows = rows.filter((row) => {
     return includes(row.title, text) || includes(row.artistName, text);
   });
