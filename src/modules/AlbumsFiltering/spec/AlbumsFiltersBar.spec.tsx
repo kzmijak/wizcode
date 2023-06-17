@@ -4,7 +4,11 @@ import { AlbumsFiltersBar } from "../src/AlbumsFiltersBar";
 
 describe("AlbumsFiltersBar", () => {
   const Component = () => (
-    <AlbumsFiltersBar search="" onSearchChange={() => null} />
+    <AlbumsFiltersBar
+      search=""
+      onSearchChange={() => null}
+      allCategories={[]}
+    />
   );
 
   it("should match snapshot", () => {

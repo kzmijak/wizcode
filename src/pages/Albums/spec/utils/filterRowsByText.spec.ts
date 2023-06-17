@@ -1,25 +1,22 @@
-import { AlbumsTableRow } from "../../src/models/AlbumsTableRow";
+import { AlbumModel } from "models/Album";
 import { filterRowsByText } from "../../src/utils/filterRowsByText";
 import { describe, it, expect } from "vitest";
 
-const album1: AlbumsTableRow = {
+const album1 = {
   artistName: "Modern Artist 1",
-  imageUrl: "",
   id: "1",
   title: "Title 1",
-};
-const album2: AlbumsTableRow = {
+} as AlbumModel;
+const album2 = {
   artistName: "Modern Artist 2",
-  imageUrl: "",
   id: "2",
   title: "Title 2",
-};
-const album3: AlbumsTableRow = {
+} as AlbumModel;
+const album3 = {
   artistName: "Classical Artist 3",
-  imageUrl: "",
   id: "3",
   title: "Title 3",
-};
+} as AlbumModel;
 
 const source = [album1, album2, album3];
 
