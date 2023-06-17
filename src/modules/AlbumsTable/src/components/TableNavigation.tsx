@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Search } from "./utils/Search";
+import { Search } from "./filters/Search";
 
 type TableHeaderProps = {
   search: string;
