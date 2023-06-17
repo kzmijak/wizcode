@@ -1,5 +1,5 @@
 import { AlbumModel } from "models/Album";
-import { filterRowsByText } from "../../src/utils/filterRowsByText";
+import { filterAlbumsByText } from "../../src/utils/filterAlbumsByText";
 import { describe, it, expect } from "vitest";
 
 const album1 = {
@@ -20,21 +20,21 @@ const album3 = {
 
 const source = [album1, album2, album3];
 
-describe("filterRowsByText", () => {
+describe("filterAlbumsByText", () => {
   it("should find filter entries by text from artistName", () => {
-    const result = filterRowsByText(source, "Modern");
+    const result = filterAlbumsByText(source, "Modern");
     expect(result).toContain(album1);
     expect(result).toContain(album2);
     expect(result).not.toContain(album3);
   });
 
   it("should find filter entries by text from title", () => {
-    const result = filterRowsByText(source, "Title 2");
+    const result = filterAlbumsByText(source, "Title 2");
     expect(result).toContain(album2);
   });
 
   it("should find filter entries by text, ignoring casing", () => {
-    const result = filterRowsByText(source, "modern");
+    const result = filterAlbumsByText(source, "modern");
     expect(result).toContain(album1);
   });
 });

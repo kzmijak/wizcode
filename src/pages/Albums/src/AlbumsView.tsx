@@ -5,16 +5,15 @@ import { RequestStatus } from "models/utils/RequestStatus";
 import { AlbumsFiltersBar } from "modules/AlbumsFiltering";
 import { AlbumsTable } from "modules/AlbumsTable";
 import { FC, useEffect, useState } from "react";
-import { filterRowsByText } from "./utils/filterRowsByText";
-import { useQuery } from "utils/useQuery";
 import { getUniqueValues } from "utils/getUniqueValues/getUniqueValues";
+import { useFilteredAlbums } from "modules/AlbumsFiltering";
 
 export const AlbumsView: FC = () => {
-  const query = useQuery();
-
   const [albums, setAlbums] = useState<AlbumModel[]>([]);
   const [status, setStatus] = useState<RequestStatus>("idle");
   const [search, setSearch] = useState("");
+
+  const filteredAlbums = useFilteredAlbums(albums, search);
 
   useEffect(() => {
     (async () => {
@@ -40,10 +39,7 @@ export const AlbumsView: FC = () => {
         onSearchChange={setSearch}
         allCategories={allCategories}
       />
-      <AlbumsTable
-        displayedRows={filterRowsByText(albums, search)}
-        rows={albums}
-      />
+      <AlbumsTable displayedRows={filteredAlbums} rows={albums} />
     </Sheet>
   );
 };

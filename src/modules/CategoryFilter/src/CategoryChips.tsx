@@ -18,7 +18,7 @@ export const CategoryChips: FC<CategoryChipsProps> = ({ allCategories }) => {
         padding={1}
       >
         {allCategories.map((category) => (
-          <CategoryChipItem category={category} />
+          <CategoryChipItem key={category} category={category} />
         ))}
       </Stack>
     </Sheet>

@@ -7,7 +7,7 @@ export const TableHeader: FC = () => {
     <thead>
       <tr>
         {albumsTableColumnConsts.map((column) => (
-          <ColumnHeader column={column} />
+          <ColumnHeader key={column} column={column} />
         ))}
       </tr>
     </thead>
