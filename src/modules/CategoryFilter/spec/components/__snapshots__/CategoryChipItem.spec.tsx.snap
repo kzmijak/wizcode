@@ -7,7 +7,6 @@ exports[`CategoryChipItem > should match snapshot 1`] = `
     <div>
       <a
         class="MuiChip-root MuiChip-colorPrimary MuiChip-sizeMd MuiChip-variantSoft css-kkujm-JoyChip-root"
-        data-testid="chip-Pop"
         href="/?categories=Pop"
       >
         <span
@@ -22,7 +21,6 @@ exports[`CategoryChipItem > should match snapshot 1`] = `
   "container": <div>
     <a
       class="MuiChip-root MuiChip-colorPrimary MuiChip-sizeMd MuiChip-variantSoft css-kkujm-JoyChip-root"
-      data-testid="chip-Pop"
       href="/?categories=Pop"
     >
       <span

@@ -13,12 +13,7 @@ export const CategoryChipItem: FC<CategoryChipItemProps> = ({ category }) => {
   const isActive = categories.includes(category);
   const variant = isActive ? "solid" : "soft";
   return (
-    <Chip
-      data-testId={`chip-${category}`}
-      variant={variant}
-      component={Link}
-      to={categoryToggleUrl(category)}
-    >
+    <Chip variant={variant} component={Link} to={categoryToggleUrl(category)}>
       {category}
     </Chip>
   );
