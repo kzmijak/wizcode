@@ -7,7 +7,7 @@ type TitleCellProps = Pick<CellTableContext, "currentRow">;
 export const TitleCell: FC<TitleCellProps> = ({ currentRow }) => {
   return (
     <Box component="td">
-      <Typography>{currentRow.artistName}</Typography>
+      <Typography>{currentRow.title}</Typography>
     </Box>
   );
 };
