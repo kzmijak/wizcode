@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { TableNavigation } from "../../src/components/TableNavigation";
+import { AlbumsFiltersBar } from "../src/AlbumsFiltersBar";
 
-describe("TableNavigation", () => {
+describe("AlbumsFiltersBar", () => {
   const Component = () => (
-    <TableNavigation search="" onSearchChange={() => null} />
+    <AlbumsFiltersBar search="" onSearchChange={() => null} />
   );
 
   it("should match snapshot", () => {

@@ -1,10 +1,10 @@
 import { Table } from "@mui/joy";
 import { FC, useState } from "react";
-import { TableNavigation } from "./components/TableNavigation";
 import { filterRowsByText } from "./utils/filterRowsByText";
 import { AlbumsTableRow } from "./models/AlbumsTableRow";
 import { TableHeader } from "./components/TableHeader";
 import { TableBody } from "./components/TableBody";
+import { AlbumsFiltersBar } from "modules/AlbumsFiltering";
 
 type AlbumsTableProps = {
   rows: AlbumsTableRow[];
@@ -17,7 +17,7 @@ export const AlbumsTable: FC<AlbumsTableProps> = ({ rows }) => {
 
   return (
     <>
-      <TableNavigation search={search} onSearchChange={setSearch} />
+      <AlbumsFiltersBar search={search} onSearchChange={setSearch} />
       <Table
         aria-label="albums table"
         borderAxis="none"

@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { Search } from "../../../src/components/filters/Search";
+import { Search } from "../../src/components/Search";
 
 describe("Search", () => {
   const Component = () => <Search value="" onChange={() => null} />;

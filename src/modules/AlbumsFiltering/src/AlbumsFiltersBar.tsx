@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { Search } from "./filters/Search";
+import { Search } from "./components/Search";
 
-type TableHeaderProps = {
+type AlbumsFiltersBarProps = {
   search: string;
   onSearchChange: (value: string) => void;
 };
 
-export const TableNavigation: FC<TableHeaderProps> = ({
+export const AlbumsFiltersBar: FC<AlbumsFiltersBarProps> = ({
   onSearchChange,
   search,
 }) => {
