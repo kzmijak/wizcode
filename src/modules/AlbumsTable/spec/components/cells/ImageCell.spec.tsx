@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { ImageCell } from "../../../../src/components/cells/ImageCell";
+import { ImageCell } from "../../../src/components/cells/ImageCell";
 import { row1 } from "./fixture";
 
 describe("ImageCell", () => {

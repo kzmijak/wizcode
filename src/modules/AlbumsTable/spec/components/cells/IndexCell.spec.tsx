@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { IndexCell } from "../../../../src/components/cells/IndexCell";
+import { IndexCell } from "../../../src/components/cells/IndexCell";
 import { row3, rows } from "./fixture";
 
 describe("IndexCell", () => {

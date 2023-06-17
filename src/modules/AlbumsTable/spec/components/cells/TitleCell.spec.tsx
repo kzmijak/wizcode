@@ -1,17 +1,17 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { ArtistCell } from "../../../../src/components/cells/ArtistCell";
+import { TitleCell } from "../../../src/components/cells/TitleCell";
 import { row1 } from "./fixture";
 
-describe("ArtistCell", () => {
-  const Component = () => <ArtistCell currentRow={row1} />;
+describe("TitleCell", () => {
+  const Component = () => <TitleCell currentRow={row1} />;
 
   it("should match snapshot", () => {
     expect(render(<Component />)).toMatchSnapshot();
   });
 
-  it("should display artist", () => {
+  it("should display title", () => {
     render(<Component />);
-    expect(screen.queryByText("Famous Artist")).toBeInTheDocument();
+    expect(screen.queryByText("Some album name")).toBeInTheDocument();
   });
 });
