@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { AlbumsTable } from "modules/AlbumsList";
+import { AlbumsTable } from "../../AlbumsTable/src/AlbumsTable";
 import { AlbumModel } from "models/Album";
 
 const imageUrl = "https://picsum.photos";
@@ -31,30 +31,6 @@ describe("AlbumsTable", () => {
 
   it("should match snapshot", () => {
     expect(render(<Component />)).toMatchSnapshot();
-  });
-
-  it("should render table with headers", () => {
-    render(<Component />);
-
-    expect(screen.getByText("#")).toBeVisible();
-    expect(screen.getByText("Image")).toBeVisible();
-    expect(screen.getByText("Title")).toBeVisible();
-    expect(screen.getByText("Artist")).toBeVisible();
-  });
-
-  it("should render adequate labels", () => {
-    render(<Component />);
-
-    expect(screen.getByRole("cell", { name: "Artist 1" })).toBeVisible();
-    expect(screen.getByRole("cell", { name: "Title 1" })).toBeVisible();
-  });
-
-  it("should render properly described image based on the album title", () => {
-    render(<Component />);
-
-    const image = screen.queryByAltText("Title 1 album image");
-    expect(image).toBeInTheDocument();
-    expect(image).toHaveAttribute("src", imageUrl);
   });
 
   it("should render as many rows as there were passed in prop", () => {

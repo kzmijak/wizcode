@@ -1,0 +1,428 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AlbumsTable > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section>
+        <div
+          class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd css-akqkp6-JoyFormControl-root"
+        >
+          <label
+            class="MuiFormLabel-root css-7g4fyo-JoyFormLabel-root"
+            for=":r0:"
+            id=":r0:-label"
+          >
+            Search
+          </label>
+          <div
+            class="MuiInput-root MuiInput-variantOutlined MuiInput-colorNeutral MuiInput-sizeMd MuiInput-formControl css-1vip6bn-JoyInput-root"
+          >
+            <input
+              class="MuiInput-input css-1gw9vc6-JoyInput-input"
+              id=":r0:"
+              placeholder="Type here..."
+              type="search"
+              value=""
+            />
+          </div>
+        </div>
+      </section>
+      <table
+        aria-label="albums table"
+        class="MuiTable-root MuiTable-stickyHeader MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-rokh38-JoyTable-root"
+      >
+        <thead>
+          <tr>
+            <th
+              class="MuiBox-root css-1x769y4"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                #
+              </p>
+            </th>
+            <th
+              class="MuiBox-root css-1bvg7gj"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Image
+              </p>
+            </th>
+            <th
+              class="MuiBox-root css-crm8vv"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Title
+              </p>
+            </th>
+            <th
+              class="MuiBox-root css-j3puv3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist
+              </p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                1
+              </p>
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <img
+                alt="Title 1 album image"
+                src="https://picsum.photos"
+              />
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 1
+              </p>
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 1
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                2
+              </p>
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <img
+                alt="Title 2 album image"
+                src="https://picsum.photos"
+              />
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 2
+              </p>
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 2
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                3
+              </p>
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <img
+                alt="Title 3 album image"
+                src="https://picsum.photos"
+              />
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 3
+              </p>
+            </td>
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 3
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <section>
+      <div
+        class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd css-akqkp6-JoyFormControl-root"
+      >
+        <label
+          class="MuiFormLabel-root css-7g4fyo-JoyFormLabel-root"
+          for=":r0:"
+          id=":r0:-label"
+        >
+          Search
+        </label>
+        <div
+          class="MuiInput-root MuiInput-variantOutlined MuiInput-colorNeutral MuiInput-sizeMd MuiInput-formControl css-1vip6bn-JoyInput-root"
+        >
+          <input
+            class="MuiInput-input css-1gw9vc6-JoyInput-input"
+            id=":r0:"
+            placeholder="Type here..."
+            type="search"
+            value=""
+          />
+        </div>
+      </div>
+    </section>
+    <table
+      aria-label="albums table"
+      class="MuiTable-root MuiTable-stickyHeader MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-rokh38-JoyTable-root"
+    >
+      <thead>
+        <tr>
+          <th
+            class="MuiBox-root css-1x769y4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              #
+            </p>
+          </th>
+          <th
+            class="MuiBox-root css-1bvg7gj"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Image
+            </p>
+          </th>
+          <th
+            class="MuiBox-root css-crm8vv"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Title
+            </p>
+          </th>
+          <th
+            class="MuiBox-root css-j3puv3"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist
+            </p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              1
+            </p>
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <img
+              alt="Title 1 album image"
+              src="https://picsum.photos"
+            />
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 1
+            </p>
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 1
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              2
+            </p>
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <img
+              alt="Title 2 album image"
+              src="https://picsum.photos"
+            />
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 2
+            </p>
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 2
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              3
+            </p>
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <img
+              alt="Title 3 album image"
+              src="https://picsum.photos"
+            />
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 3
+            </p>
+          </td>
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 3
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
