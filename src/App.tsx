@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { extractAlbumModels, fetchTopAlbums } from "api/topAlbums";
 import { RequestStatus } from "models/utils/RequestStatus";
 import { AlbumModel } from "models/Album";
-import { AlbumsTable } from "modules/AlbumsList";
+import { AlbumsTable } from "modules/AlbumsTable";
 import { Sheet } from "@mui/joy";
 
 export const App = () => {

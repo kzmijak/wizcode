@@ -3,6 +3,8 @@ import { AlbumModel } from "models/Album";
 import { FC, useState } from "react";
 import { Header } from "./components/Header";
 import { filterRowsByText } from "./utils/filterRowsByText";
+import { albumsTableColumnConsts } from "./models/AlbumsTableColumn";
+import { ColumnHeader } from "./components/cells/ColumnHeader";
 
 type AlbumsTableProps = {
   rows: AlbumModel[];
@@ -27,10 +29,9 @@ export const AlbumsTable: FC<AlbumsTableProps> = ({ rows }) => {
       >
         <thead>
           <tr>
-            <th>#</th>
-            <th>Image</th>
-            <th>Title</th>
-            <th>Artist</th>
+            {albumsTableColumnConsts.map((column) => (
+              <ColumnHeader column={column} />
+            ))}
           </tr>
         </thead>
         <tbody>

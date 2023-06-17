@@ -5,23 +5,71 @@ exports[`AlbumsTable > should match snapshot 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <section>
+        <div
+          class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd css-akqkp6-JoyFormControl-root"
+        >
+          <label
+            class="MuiFormLabel-root css-7g4fyo-JoyFormLabel-root"
+            for=":r0:"
+            id=":r0:-label"
+          >
+            Search
+          </label>
+          <div
+            class="MuiInput-root MuiInput-variantOutlined MuiInput-colorNeutral MuiInput-sizeMd MuiInput-formControl css-1vip6bn-JoyInput-root"
+          >
+            <input
+              class="MuiInput-input css-1gw9vc6-JoyInput-input"
+              id=":r0:"
+              placeholder="Type here..."
+              type="search"
+              value=""
+            />
+          </div>
+        </div>
+      </section>
       <table
         aria-label="albums table"
         class="MuiTable-root MuiTable-stickyHeader MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-rokh38-JoyTable-root"
       >
         <thead>
           <tr>
-            <th>
-              #
+            <th
+              class="MuiBox-root css-1x769y4"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                #
+              </p>
             </th>
-            <th>
-              Image
+            <th
+              class="MuiBox-root css-1bvg7gj"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Image
+              </p>
             </th>
-            <th>
-              Title
+            <th
+              class="MuiBox-root css-crm8vv"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Title
+              </p>
             </th>
-            <th>
-              Artist
+            <th
+              class="MuiBox-root css-j3puv3"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist
+              </p>
             </th>
           </tr>
         </thead>
@@ -82,23 +130,71 @@ exports[`AlbumsTable > should match snapshot 1`] = `
     </div>
   </body>,
   "container": <div>
+    <section>
+      <div
+        class="MuiFormControl-root MuiFormControl-vertical MuiFormControl-sizeMd css-akqkp6-JoyFormControl-root"
+      >
+        <label
+          class="MuiFormLabel-root css-7g4fyo-JoyFormLabel-root"
+          for=":r0:"
+          id=":r0:-label"
+        >
+          Search
+        </label>
+        <div
+          class="MuiInput-root MuiInput-variantOutlined MuiInput-colorNeutral MuiInput-sizeMd MuiInput-formControl css-1vip6bn-JoyInput-root"
+        >
+          <input
+            class="MuiInput-input css-1gw9vc6-JoyInput-input"
+            id=":r0:"
+            placeholder="Type here..."
+            type="search"
+            value=""
+          />
+        </div>
+      </div>
+    </section>
     <table
       aria-label="albums table"
       class="MuiTable-root MuiTable-stickyHeader MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-rokh38-JoyTable-root"
     >
       <thead>
         <tr>
-          <th>
-            #
+          <th
+            class="MuiBox-root css-1x769y4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              #
+            </p>
           </th>
-          <th>
-            Image
+          <th
+            class="MuiBox-root css-1bvg7gj"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Image
+            </p>
           </th>
-          <th>
-            Title
+          <th
+            class="MuiBox-root css-crm8vv"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Title
+            </p>
           </th>
-          <th>
-            Artist
+          <th
+            class="MuiBox-root css-j3puv3"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist
+            </p>
           </th>
         </tr>
       </thead>

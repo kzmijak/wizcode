@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { AlbumsTable } from "modules/AlbumsList";
+import { AlbumsTable } from "../../src/AlbumsTable";
 import { AlbumModel } from "models/Album";
 
 const imageUrl = "https://picsum.photos";
