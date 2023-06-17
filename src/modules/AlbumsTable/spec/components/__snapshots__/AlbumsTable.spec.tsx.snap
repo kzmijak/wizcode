@@ -75,54 +75,114 @@ exports[`AlbumsTable > should match snapshot 1`] = `
         </thead>
         <tbody>
           <tr>
-            <td>
-              1
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                1
+              </p>
             </td>
-            <td>
+            <td
+              class="MuiBox-root css-0"
+            >
               <img
                 alt="Title 1 album image"
                 src="https://picsum.photos"
               />
             </td>
-            <td>
-              Title 1
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Title 1
+              </p>
             </td>
-            <td>
-              Artist 1
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 1
+              </p>
             </td>
           </tr>
           <tr>
-            <td>
-              2
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                2
+              </p>
             </td>
-            <td>
+            <td
+              class="MuiBox-root css-0"
+            >
               <img
                 alt="Title 2 album image"
                 src="https://picsum.photos"
               />
             </td>
-            <td>
-              Title 2
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Title 2
+              </p>
             </td>
-            <td>
-              Artist 2
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 2
+              </p>
             </td>
           </tr>
           <tr>
-            <td>
-              3
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                3
+              </p>
             </td>
-            <td>
+            <td
+              class="MuiBox-root css-0"
+            >
               <img
                 alt="Title 3 album image"
                 src="https://picsum.photos"
               />
             </td>
-            <td>
-              Title 3
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Title 3
+              </p>
             </td>
-            <td>
-              Artist 3
+            <td
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+              >
+                Artist 3
+              </p>
             </td>
           </tr>
         </tbody>
@@ -200,54 +260,114 @@ exports[`AlbumsTable > should match snapshot 1`] = `
       </thead>
       <tbody>
         <tr>
-          <td>
-            1
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              1
+            </p>
           </td>
-          <td>
+          <td
+            class="MuiBox-root css-0"
+          >
             <img
               alt="Title 1 album image"
               src="https://picsum.photos"
             />
           </td>
-          <td>
-            Title 1
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Title 1
+            </p>
           </td>
-          <td>
-            Artist 1
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 1
+            </p>
           </td>
         </tr>
         <tr>
-          <td>
-            2
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              2
+            </p>
           </td>
-          <td>
+          <td
+            class="MuiBox-root css-0"
+          >
             <img
               alt="Title 2 album image"
               src="https://picsum.photos"
             />
           </td>
-          <td>
-            Title 2
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Title 2
+            </p>
           </td>
-          <td>
-            Artist 2
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 2
+            </p>
           </td>
         </tr>
         <tr>
-          <td>
-            3
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              3
+            </p>
           </td>
-          <td>
+          <td
+            class="MuiBox-root css-0"
+          >
             <img
               alt="Title 3 album image"
               src="https://picsum.photos"
             />
           </td>
-          <td>
-            Title 3
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Title 3
+            </p>
           </td>
-          <td>
-            Artist 3
+          <td
+            class="MuiBox-root css-0"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-inherit css-1czpeps-JoyTypography-root"
+            >
+              Artist 3
+            </p>
           </td>
         </tr>
       </tbody>

@@ -1,11 +1,10 @@
 import { Table } from "@mui/joy";
 import { FC, useState } from "react";
-import { TableHeader } from "./components/Header";
+import { TableNavigation } from "./components/TableNavigation";
 import { filterRowsByText } from "./utils/filterRowsByText";
-import { albumsTableColumnConsts } from "./models/AlbumsTableColumn";
-import { ColumnHeader } from "./components/ColumnHeader";
 import { AlbumsTableRow } from "./models/AlbumsTableRow";
-import { ImageCell, IndexCell, TitleCell } from "./components/cells";
+import { TableHeader } from "./components/TableHeader";
+import { TableBody } from "./components/TableBody";
 
 type AlbumsTableProps = {
   rows: AlbumsTableRow[];
@@ -14,11 +13,11 @@ type AlbumsTableProps = {
 export const AlbumsTable: FC<AlbumsTableProps> = ({ rows }) => {
   const [search, setSearch] = useState("");
 
-  const displayRows = filterRowsByText(rows, search);
+  const displayedRows = filterRowsByText(rows, search);
 
   return (
     <>
-      <TableHeader search={search} onSearchChange={setSearch} />
+      <TableNavigation search={search} onSearchChange={setSearch} />
       <Table
         aria-label="albums table"
         borderAxis="none"
@@ -28,23 +27,8 @@ export const AlbumsTable: FC<AlbumsTableProps> = ({ rows }) => {
         stripe="odd"
         variant="plain"
       >
-        <thead>
-          <tr>
-            {albumsTableColumnConsts.map((column) => (
-              <ColumnHeader column={column} />
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {displayRows.map((row) => (
-            <tr key={row.id}>
-              <IndexCell currentRow={row} rows={rows} />
-              <ImageCell currentRow={row} value={row.imageUrl} />
-              <TitleCell value={row.title} />
-              <TitleCell value={row.artistName} />
-            </tr>
-          ))}
-        </tbody>
+        <TableHeader />
+        <TableBody allRows={rows} displayedRows={displayedRows} />
       </Table>
     </>
   );

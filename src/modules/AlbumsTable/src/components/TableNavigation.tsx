@@ -6,7 +6,7 @@ type TableHeaderProps = {
   onSearchChange: (value: string) => void;
 };
 
-export const TableHeader: FC<TableHeaderProps> = ({
+export const TableNavigation: FC<TableHeaderProps> = ({
   onSearchChange,
   search,
 }) => {
