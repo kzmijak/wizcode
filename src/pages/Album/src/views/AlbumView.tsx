@@ -3,8 +3,8 @@ import { FC } from "react";
 import { Navigate, useParams } from "react-router";
 import { useRecoilValue } from "recoil";
 import { PATH_APP } from "routes/src/paths";
-import { AlbumInfo } from "../components/AlbumInfo";
 import { Page } from "components/Page";
+import { AlbumDetails } from "../components/AlbumDetails";
 
 export const AlbumView: FC = () => {
   useAlbumsFetch();
@@ -15,7 +15,7 @@ export const AlbumView: FC = () => {
   if (!album) return <Navigate to={PATH_APP.notFound} replace />;
   return (
     <Page title={album.title}>
-      <AlbumInfo {...album} />
+      <AlbumDetails {...album} />
     </Page>
   );
 };
