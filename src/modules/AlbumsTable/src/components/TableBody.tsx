@@ -4,6 +4,7 @@ import { IndexCell, ImageCell, TitleCell, ArtistCell } from "./cells";
 import { Tooltip } from "@mui/joy";
 import { RowTooltipContent } from "./RowTooltipContent";
 import { TableRowStyled } from "./styles/TableRowStyled";
+import { useNavigate } from "react-router";
 
 type TableBodyProps = {
   allRows: AlbumsTableRow[];
@@ -11,6 +12,8 @@ type TableBodyProps = {
 };
 
 export const TableBody: FC<TableBodyProps> = ({ allRows, displayedRows }) => {
+  const navigate = useNavigate();
+
   return (
     <tbody>
       {displayedRows.map((row) => (
@@ -21,7 +24,7 @@ export const TableBody: FC<TableBodyProps> = ({ allRows, displayedRows }) => {
           key={row.id}
           placement="right"
         >
-          <TableRowStyled>
+          <TableRowStyled onClick={() => navigate(row.id)}>
             <IndexCell currentRow={row} rows={allRows} />
             <ImageCell currentRow={row} />
             <TitleCell currentRow={row} />
