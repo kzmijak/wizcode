@@ -8,6 +8,7 @@ import { useRecoilValue } from "recoil";
 import { AlbumInfo } from "./AlbumInfo";
 import { AlbumComment } from "./AlbumComment";
 import { Box, Divider, Stack, Typography } from "@mui/joy";
+import { RelatedAlbums } from "./RelatedAlbums";
 
 type AlbumDetailsProps = AlbumModel;
 
@@ -20,6 +21,8 @@ export const AlbumDetails: FC<AlbumDetailsProps> = (album) => {
       <Box paddingY={20}>
         <AlbumInfo {...album} />
       </Box>
+
+      <RelatedAlbums id={album.id} category={album.category} />
 
       <Typography level="h4">Comments</Typography>
       <Divider />
