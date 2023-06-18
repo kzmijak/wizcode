@@ -1,5 +1,6 @@
 import { Sheet, Stack, Typography, TypographySystem } from "@mui/joy";
 import { changeImageSize } from "api/topAlbums";
+import { Picture } from "components/Picture";
 import { AlbumModel } from "models/Album";
 import { FC } from "react";
 
@@ -24,7 +25,12 @@ export const AlbumInfo: FC<AlbumInfoProps> = ({
 }) => {
   return (
     <Stack component={Sheet} direction="row" spacing={10}>
-      <img src={changeImageSize(imageUrl, 500)} alt={`${title} album cover`} />
+      <Picture
+        src={changeImageSize(imageUrl, 500)}
+        alt={`${title} album cover`}
+        height={500}
+        width={500}
+      />
       <Stack width={500} minHeight="100%" justifyContent="center" padding={3}>
         <Typography level={getTitleLevel(title.length)} fontWeight="bold">
           {title}
