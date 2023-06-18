@@ -15,7 +15,9 @@ export const CommentsSection: FC<CommentsSectionProps> = (album) => {
   const { status } = useAlbumCommentsFetch(album.id);
   const albumComments = useRecoilValue(albumCommentsState(album.id));
 
-  const skeleton = [...Array(8).keys()].map(AlbumCommentSkeleton);
+  const skeleton = [...Array(8).keys()].map((key) => (
+    <AlbumCommentSkeleton key={key} />
+  ));
   const comments = albumComments.map((comment) => (
     <AlbumComment key={comment.id} {...comment} />
   ));
