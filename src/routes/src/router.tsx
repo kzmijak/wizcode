@@ -12,7 +12,7 @@ export const router = createBrowserRouter(
       <Route path={PATH_APP.root} element={<AlbumsView />} />
       <Route path={PATH_APP.album + ":albumId"} element={<AlbumView />} />
 
-      <Route path="*" element={<Navigate to={PATH_APP.notFound} />} />
+      <Route path="*" element={<Navigate to={PATH_APP.notFound} replace />} />
       <Route path={PATH_APP.notFound} element={<NotFoundView />} />
     </Route>
   )
