@@ -22,7 +22,7 @@ export const RelatedAlbums: FC<RelatedAlbumsProps> = (album) => {
   return (
     <Stack spacing={2} component="section" direction="row" flexWrap="nowrap">
       {relatedAlbums.map((album) => (
-        <Tooltip title={album.title}>
+        <Tooltip key={album.id} title={album.title}>
           <Stack
             component={Link}
             to={PATH_APP.album + album.id}

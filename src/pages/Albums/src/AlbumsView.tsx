@@ -1,4 +1,4 @@
-import { LinearProgress, Sheet } from "@mui/joy";
+import { LinearProgress, Sheet, Stack } from "@mui/joy";
 import { AlbumsFiltersBar } from "modules/AlbumsFiltering";
 import { AlbumsTable } from "modules/AlbumsTable";
 import { FC, useState } from "react";
@@ -22,14 +22,14 @@ export const AlbumsView: FC = () => {
   if (status === "loading") return <LinearProgress />;
   return (
     <Page title="Albums">
-      <Sheet>
+      <Stack flexGrow={1} padding={2}>
         <AlbumsFiltersBar
           search={search}
           onSearchChange={setSearch}
           allCategories={uniqueCategories}
         />
         <AlbumsTable displayedRows={filteredAlbums} rows={albums} />
-      </Sheet>
+      </Stack>
     </Page>
   );
 };

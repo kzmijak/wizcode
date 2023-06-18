@@ -18,6 +18,7 @@ export const Picture: FC<PictureProps> = ({ alt, src, height, width }) => {
         <CircularProgress sx={{ position: "absolute", height, width }} />
       )}
       <img
+        key={src}
         src={src}
         alt={alt}
         onLoad={showImage}
