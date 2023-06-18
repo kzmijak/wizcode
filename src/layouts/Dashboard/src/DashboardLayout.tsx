@@ -5,7 +5,11 @@ import { Outlet } from "react-router";
 export const DashboardLayout: FC = () => {
   return (
     <Container>
-      <Stack minHeight="100vh">
+      <Stack
+        sx={{ minHeight: "100vh" }}
+        justifyContent="center"
+        alignItems="center"
+      >
         <Outlet />
       </Stack>
     </Container>

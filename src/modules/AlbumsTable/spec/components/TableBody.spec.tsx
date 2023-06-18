@@ -1,20 +1,20 @@
 import { describe, it, expect } from "vitest";
-import { render } from "@testing-library/react";
 import { TableBody } from "../../src/components/TableBody";
 import { AlbumsTableRow } from "modules/AlbumsTable/src/models/AlbumsTableRow";
+import { renderWithRouter } from "testUtils/renderWithRouter";
 
-const row1: AlbumsTableRow = {
+const row1 = {
   artistName: "name 1",
   id: "1",
   imageUrl: "",
   title: "title 1",
-};
-const row2: AlbumsTableRow = {
+} as AlbumsTableRow;
+const row2 = {
   artistName: "name 2",
   id: "2",
   imageUrl: "",
   title: "title 2",
-};
+} as AlbumsTableRow;
 
 const allRows = [row1, row2];
 const displayedRows = [row1];
@@ -25,6 +25,6 @@ describe("TableBody", () => {
   );
 
   it("should match snapshot", () => {
-    expect(render(<Component />)).toMatchSnapshot();
+    expect(renderWithRouter(<Component />)).toMatchSnapshot();
   });
 });
