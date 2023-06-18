@@ -18,6 +18,7 @@ export const AlbumsTable: FC<AlbumsTableProps> = ({ rows, displayedRows }) => (
     stickyHeader
     stripe="odd"
     variant="plain"
+    hoverRow
   >
     <TableHeader />
     <TableBody allRows={rows} displayedRows={displayedRows} />

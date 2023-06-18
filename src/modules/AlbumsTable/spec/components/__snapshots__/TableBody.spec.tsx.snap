@@ -6,7 +6,9 @@ exports[`TableBody > should match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <tbody>
-        <tr>
+        <tr
+          class=" css-4g6ai3"
+        >
           <td
             class="MuiBox-root css-0"
           >
@@ -48,7 +50,9 @@ exports[`TableBody > should match snapshot 1`] = `
   </body>,
   "container": <div>
     <tbody>
-      <tr>
+      <tr
+        class=" css-4g6ai3"
+      >
         <td
           class="MuiBox-root css-0"
         >

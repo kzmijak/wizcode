@@ -9,6 +9,7 @@ import {
   uniqueAlbumsCategoriesState,
   useAlbumsFetch,
 } from "modules/AlbumsState";
+import { Page } from "components/Page";
 
 export const AlbumsView: FC = () => {
   const [search, setSearch] = useState("");
@@ -20,13 +21,15 @@ export const AlbumsView: FC = () => {
 
   if (status === "loading") return <LinearProgress />;
   return (
-    <Sheet>
-      <AlbumsFiltersBar
-        search={search}
-        onSearchChange={setSearch}
-        allCategories={uniqueCategories}
-      />
-      <AlbumsTable displayedRows={filteredAlbums} rows={albums} />
-    </Sheet>
+    <Page title="Albums">
+      <Sheet>
+        <AlbumsFiltersBar
+          search={search}
+          onSearchChange={setSearch}
+          allCategories={uniqueCategories}
+        />
+        <AlbumsTable displayedRows={filteredAlbums} rows={albums} />
+      </Sheet>
+    </Page>
   );
 };

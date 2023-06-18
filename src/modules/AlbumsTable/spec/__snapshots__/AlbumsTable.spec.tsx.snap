@@ -7,7 +7,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
     <div>
       <table
         aria-label="albums table"
-        class="MuiTable-root MuiTable-stickyHeader MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-rokh38-JoyTable-root"
+        class="MuiTable-root MuiTable-stickyHeader MuiTable-hoverRow MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-1gt0rm0-JoyTable-root"
       >
         <thead>
           <tr>
@@ -50,7 +50,9 @@ exports[`AlbumsTable > should match snapshot 1`] = `
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr
+            class=" css-4g6ai3"
+          >
             <td
               class="MuiBox-root css-0"
             >
@@ -82,7 +84,9 @@ exports[`AlbumsTable > should match snapshot 1`] = `
               />
             </td>
           </tr>
-          <tr>
+          <tr
+            class=" css-4g6ai3"
+          >
             <td
               class="MuiBox-root css-0"
             >
@@ -114,7 +118,9 @@ exports[`AlbumsTable > should match snapshot 1`] = `
               />
             </td>
           </tr>
-          <tr>
+          <tr
+            class=" css-4g6ai3"
+          >
             <td
               class="MuiBox-root css-0"
             >
@@ -153,7 +159,7 @@ exports[`AlbumsTable > should match snapshot 1`] = `
   "container": <div>
     <table
       aria-label="albums table"
-      class="MuiTable-root MuiTable-stickyHeader MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-rokh38-JoyTable-root"
+      class="MuiTable-root MuiTable-stickyHeader MuiTable-hoverRow MuiTable-borderAxisNone MuiTable-variantPlain MuiTable-colorNeutral MuiTable-sizeMd css-1gt0rm0-JoyTable-root"
     >
       <thead>
         <tr>
@@ -196,7 +202,9 @@ exports[`AlbumsTable > should match snapshot 1`] = `
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr
+          class=" css-4g6ai3"
+        >
           <td
             class="MuiBox-root css-0"
           >
@@ -228,7 +236,9 @@ exports[`AlbumsTable > should match snapshot 1`] = `
             />
           </td>
         </tr>
-        <tr>
+        <tr
+          class=" css-4g6ai3"
+        >
           <td
             class="MuiBox-root css-0"
           >
@@ -260,7 +270,9 @@ exports[`AlbumsTable > should match snapshot 1`] = `
             />
           </td>
         </tr>
-        <tr>
+        <tr
+          class=" css-4g6ai3"
+        >
           <td
             class="MuiBox-root css-0"
           >
