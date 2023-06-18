@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { AlbumInfo } from "../../src/components/AlbumInfo";
+import { AlbumInfo } from "../../src/components/sections/AlbumInfo";
 
 describe("AlbumInfo", () => {
   const Component = () => (

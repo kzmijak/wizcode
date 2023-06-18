@@ -1,21 +1,13 @@
 import { AlbumModel } from "models/Album";
-import {
-  albumCommentsState,
-  useAlbumCommentsFetch,
-} from "modules/AlbumCommentsState";
 import { FC } from "react";
-import { useRecoilValue } from "recoil";
-import { AlbumInfo } from "./AlbumInfo";
-import { AlbumComment } from "./AlbumComment";
-import { Box, Divider, Stack, Typography } from "@mui/joy";
-import { RelatedAlbums } from "./RelatedAlbums";
+import { AlbumInfo } from "./sections/AlbumInfo";
+import { Box, Stack } from "@mui/joy";
+import { RelatedAlbums } from "./sections/RelatedAlbums";
+import { CommentsSection } from "./sections/comments/CommentsSection";
 
 type AlbumDetailsProps = AlbumModel;
 
 export const AlbumDetails: FC<AlbumDetailsProps> = (album) => {
-  useAlbumCommentsFetch(album.id);
-  const albumComments = useRecoilValue(albumCommentsState(album.id));
-
   return (
     <Stack spacing={2}>
       <Box paddingY={20}>
@@ -24,11 +16,7 @@ export const AlbumDetails: FC<AlbumDetailsProps> = (album) => {
 
       <RelatedAlbums id={album.id} category={album.category} />
 
-      <Typography level="h4">Comments</Typography>
-      <Divider />
-      {albumComments.map((comment) => (
-        <AlbumComment key={comment.id} {...comment} />
-      ))}
+      <CommentsSection {...album} />
     </Stack>
   );
 };

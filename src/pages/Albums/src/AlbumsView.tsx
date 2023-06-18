@@ -1,4 +1,4 @@
-import { LinearProgress, Sheet, Stack } from "@mui/joy";
+import { LinearProgress, Stack } from "@mui/joy";
 import { AlbumsFiltersBar } from "modules/AlbumsFiltering";
 import { AlbumsTable } from "modules/AlbumsTable";
 import { FC, useState } from "react";
