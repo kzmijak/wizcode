@@ -1,0 +1,146 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AlbumComment > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <article
+        class="MuiStack-root css-190okh3-JoyStack-root"
+      >
+        <div
+          class="MuiStack-root css-490mm2-JoyStack-root"
+        >
+          <div
+            class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorWarning MuiAvatar-sizeMd css-1w8mgdh-JoyAvatar-root"
+          >
+            <img
+              alt="User name's avatar"
+              class="MuiAvatar-img css-9ae35a-JoyAvatar-img"
+              src="imgsrc"
+            />
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorNeutral MuiTypography-variantSolid css-g7l4sp-JoyTypography-root"
+          >
+            User name
+          </p>
+        </div>
+        <div
+          class="MuiStack-root css-1j7mj4l-JoyStack-root"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-7ui8qe-JoyTypography-root"
+          >
+            Comment title
+          </h6>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-colorNeutral MuiTypography-variantSoft css-2sqj6q-JoyTypography-root"
+          >
+            Comment description
+          </p>
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-c4auoj-JoyTypography-root"
+        >
+          19.06.2023
+        </p>
+      </article>
+    </div>
+  </body>,
+  "container": <div>
+    <article
+      class="MuiStack-root css-190okh3-JoyStack-root"
+    >
+      <div
+        class="MuiStack-root css-490mm2-JoyStack-root"
+      >
+        <div
+          class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorWarning MuiAvatar-sizeMd css-1w8mgdh-JoyAvatar-root"
+        >
+          <img
+            alt="User name's avatar"
+            class="MuiAvatar-img css-9ae35a-JoyAvatar-img"
+            src="imgsrc"
+          />
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorNeutral MuiTypography-variantSolid css-g7l4sp-JoyTypography-root"
+        >
+          User name
+        </p>
+      </div>
+      <div
+        class="MuiStack-root css-1j7mj4l-JoyStack-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-7ui8qe-JoyTypography-root"
+        >
+          Comment title
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-colorNeutral MuiTypography-variantSoft css-2sqj6q-JoyTypography-root"
+        >
+          Comment description
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-c4auoj-JoyTypography-root"
+      >
+        19.06.2023
+      </p>
+    </article>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

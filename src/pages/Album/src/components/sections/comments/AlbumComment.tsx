@@ -41,7 +41,7 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
         </Typography>
       </Stack>
       <Typography level="body2">
-        {lastModificationDate.toLocaleDateString()}
+        {lastModificationDate.toLocaleDateString("pl")}
       </Typography>
     </Stack>
   );
