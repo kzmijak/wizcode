@@ -6,7 +6,7 @@ import { FC } from "react";
 
 const getTitleLevel = (length: number): keyof TypographySystem => {
   if (length <= 40) {
-    return "display1";
+    return "display2";
   } else if (length <= 100) {
     return "h1";
   } else if (length <= 200) {
@@ -16,22 +16,42 @@ const getTitleLevel = (length: number): keyof TypographySystem => {
   }
 };
 
-type AlbumInfoProps = Pick<AlbumModel, "artistName" | "imageUrl" | "title">;
+type AlbumInfoProps = Pick<AlbumModel, "artistName" | "imageUrl" | "title"> & {
+  orientation?: "row" | "column";
+};
 
 export const AlbumInfo: FC<AlbumInfoProps> = ({
   artistName,
   imageUrl,
   title,
+  orientation,
 }) => {
+  const isVertical = orientation === "column";
+
+  const boxSize = isVertical ? "60%" : 500;
+
   return (
-    <Stack component={Sheet} direction="row" spacing={10}>
+    <Stack
+      component={Sheet}
+      direction={orientation}
+      justifyContent="center"
+      alignItems="center"
+      spacing={10}
+    >
       <Picture
         src={changeImageSize(imageUrl, 500)}
         alt={`${title} album cover`}
-        height={500}
-        width={500}
+        height={boxSize}
+        width={boxSize}
       />
-      <Stack width={500} minHeight="100%" justifyContent="center" padding={3}>
+      <Stack
+        maxWidth={boxSize}
+        minHeight="100%"
+        justifyContent="center"
+        alignItems={isVertical ? "center" : "start"}
+        textAlign={isVertical ? "center" : "left"}
+        padding={3}
+      >
         <Typography level={getTitleLevel(title.length)} fontWeight="bold">
           {title}
         </Typography>

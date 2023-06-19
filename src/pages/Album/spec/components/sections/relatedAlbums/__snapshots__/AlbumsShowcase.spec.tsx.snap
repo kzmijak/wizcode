@@ -1,0 +1,1312 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AlbumsShowcase > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-18ev1m-JoyGrid-root"
+      >
+        <a
+          aria-label="title0"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/0"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title0 - related album cover"
+              src="0"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title1"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/1"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title1 - related album cover"
+              src="1"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title2"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/2"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title2 - related album cover"
+              src="2"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title3"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/3"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title3 - related album cover"
+              src="3"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title4"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/4"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title4 - related album cover"
+              src="4"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title5"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/5"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title5 - related album cover"
+              src="5"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title6"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/6"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title6 - related album cover"
+              src="6"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title7"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/7"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title7 - related album cover"
+              src="7"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title8"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/8"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title8 - related album cover"
+              src="8"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title9"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/9"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title9 - related album cover"
+              src="9"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title10"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/10"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title10 - related album cover"
+              src="10"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title11"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/11"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title11 - related album cover"
+              src="11"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title12"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/12"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title12 - related album cover"
+              src="12"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title13"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/13"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title13 - related album cover"
+              src="13"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title14"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/14"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title14 - related album cover"
+              src="14"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title15"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/15"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title15 - related album cover"
+              src="15"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title16"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/16"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title16 - related album cover"
+              src="16"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title17"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/17"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title17 - related album cover"
+              src="17"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title18"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/18"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title18 - related album cover"
+              src="18"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+        <a
+          aria-label="title19"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+          href="/19"
+        >
+          <div
+            class="MuiStack-root css-f9pi93-JoyStack-root"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+              role="progressbar"
+              style="--CircularProgress-percent: 25;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+              >
+                <circle
+                  class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+                />
+                <circle
+                  class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+                />
+              </svg>
+            </span>
+            <img
+              alt="title19 - related album cover"
+              src="19"
+              style="opacity: 0; height: 55px; width: 55px;"
+            />
+          </div>
+        </a>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-18ev1m-JoyGrid-root"
+    >
+      <a
+        aria-label="title0"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/0"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title0 - related album cover"
+            src="0"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title1"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/1"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title1 - related album cover"
+            src="1"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title2"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/2"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title2 - related album cover"
+            src="2"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title3"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/3"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title3 - related album cover"
+            src="3"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title4"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/4"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title4 - related album cover"
+            src="4"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title5"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/5"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title5 - related album cover"
+            src="5"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title6"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/6"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title6 - related album cover"
+            src="6"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title7"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/7"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title7 - related album cover"
+            src="7"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title8"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/8"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title8 - related album cover"
+            src="8"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title9"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/9"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title9 - related album cover"
+            src="9"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title10"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/10"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title10 - related album cover"
+            src="10"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title11"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/11"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title11 - related album cover"
+            src="11"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title12"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/12"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title12 - related album cover"
+            src="12"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title13"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/13"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title13 - related album cover"
+            src="13"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title14"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/14"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title14 - related album cover"
+            src="14"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title15"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/15"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title15 - related album cover"
+            src="15"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title16"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/16"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title16 - related album cover"
+            src="16"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title17"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/17"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title17 - related album cover"
+            src="17"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title18"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/18"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title18 - related album cover"
+            src="18"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+      <a
+        aria-label="title19"
+        class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
+        href="/19"
+      >
+        <div
+          class="MuiStack-root css-f9pi93-JoyStack-root"
+        >
+          <span
+            class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-variantSoft MuiCircularProgress-sizeMd css-sdm6f4-JoyCircularProgress-root"
+            role="progressbar"
+            style="--CircularProgress-percent: 25;"
+          >
+            <svg
+              class="MuiCircularProgress-svg css-qw6zo9-JoyCircularProgress-svg"
+            >
+              <circle
+                class="MuiCircularProgress-track css-vtf6ih-JoyCircularProgress-track"
+              />
+              <circle
+                class="MuiCircularProgress-progress css-glg1l6-JoyCircularProgress-progress"
+              />
+            </svg>
+          </span>
+          <img
+            alt="title19 - related album cover"
+            src="19"
+            style="opacity: 0; height: 55px; width: 55px;"
+          />
+        </div>
+      </a>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,6 +1,7 @@
 export type TopAlbumsResponse = {
   feed: {
     entry: {
+      id: IdItem;
       "im:name": LabelledItem;
       "im:image": LabelledItem[];
       "im:artist": LabelledItem;
@@ -25,5 +26,11 @@ type PriceItem = {
 type CategoryItem = {
   attributes: {
     label: string;
+  };
+};
+
+type IdItem = {
+  attributes: {
+    "im:id": string;
   };
 };

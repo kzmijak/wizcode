@@ -4,8 +4,8 @@ import { FC, useState } from "react";
 type PictureProps = {
   src: string;
   alt: string;
-  height?: number;
-  width?: number;
+  height?: number | string;
+  width?: number | string;
 };
 
 export const Picture: FC<PictureProps> = ({ alt, src, height, width }) => {
@@ -18,6 +18,7 @@ export const Picture: FC<PictureProps> = ({ alt, src, height, width }) => {
         <CircularProgress sx={{ position: "absolute", height, width }} />
       )}
       <img
+        key={src}
         src={src}
         alt={alt}
         onLoad={showImage}

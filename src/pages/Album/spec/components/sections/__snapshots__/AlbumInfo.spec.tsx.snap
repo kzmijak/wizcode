@@ -6,7 +6,7 @@ exports[`AlbumInfo > should match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral MuiStack-root css-zgi29-JoySheet-root-JoyStack-root"
+        class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral MuiStack-root css-14do4xl-JoySheet-root-JoyStack-root"
       >
         <div
           class="MuiStack-root css-f9pi93-JoyStack-root"
@@ -34,13 +34,13 @@ exports[`AlbumInfo > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-bie15x-JoyStack-root"
+          class="MuiStack-root css-1yzxy35-JoyStack-root"
         >
-          <h1
-            class="MuiTypography-root MuiTypography-display1 css-136lc36-JoyTypography-root"
+          <h2
+            class="MuiTypography-root MuiTypography-display2 css-1wfxjn2-JoyTypography-root"
           >
             Title
-          </h1>
+          </h2>
           <h2
             class="MuiTypography-root MuiTypography-h2 css-12p2gi2-JoyTypography-root"
           >
@@ -52,7 +52,7 @@ exports[`AlbumInfo > should match snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral MuiStack-root css-zgi29-JoySheet-root-JoyStack-root"
+      class="MuiSheet-root MuiSheet-variantPlain MuiSheet-colorNeutral MuiStack-root css-14do4xl-JoySheet-root-JoyStack-root"
     >
       <div
         class="MuiStack-root css-f9pi93-JoyStack-root"
@@ -80,13 +80,13 @@ exports[`AlbumInfo > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-bie15x-JoyStack-root"
+        class="MuiStack-root css-1yzxy35-JoyStack-root"
       >
-        <h1
-          class="MuiTypography-root MuiTypography-display1 css-136lc36-JoyTypography-root"
+        <h2
+          class="MuiTypography-root MuiTypography-display2 css-1wfxjn2-JoyTypography-root"
         >
           Title
-        </h1>
+        </h2>
         <h2
           class="MuiTypography-root MuiTypography-h2 css-12p2gi2-JoyTypography-root"
         >
