@@ -10,7 +10,7 @@ const Paragraph = styled(Box)({
 export const AlbumCommentSkeleton: FC = () => {
   return (
     <Stack
-      data-testId="comment-skeleton"
+      data-testid="comment-skeleton"
       component="article"
       direction="row"
       spacing={3}

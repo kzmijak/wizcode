@@ -7,6 +7,7 @@ exports[`AlbumComment > should match snapshot 1`] = `
     <div>
       <article
         class="MuiStack-root css-190okh3-JoyStack-root"
+        data-testid="comment-genuine"
       >
         <div
           class="MuiStack-root css-490mm2-JoyStack-root"
@@ -51,6 +52,7 @@ exports[`AlbumComment > should match snapshot 1`] = `
   "container": <div>
     <article
       class="MuiStack-root css-190okh3-JoyStack-root"
+      data-testid="comment-genuine"
     >
       <div
         class="MuiStack-root css-490mm2-JoyStack-root"

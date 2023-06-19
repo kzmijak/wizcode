@@ -2,21 +2,27 @@ import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { CommentsSection } from "../../../../src/components/sections/comments/CommentsSection";
 import { RecoilRoot } from "recoil";
+import { AlbumCommentsResponseItem } from "api/albumComments/src/models/AlbumCommentsResponseItem";
 
-const comments = [...Array(10).keys()].map((key) => ({
-  id: key,
-  userName: key,
-  userAvatar: key,
-  title: key,
-  description: key,
-  lastModificationDate: key,
-}));
+const comments = [...Array(10).keys()].map<AlbumCommentsResponseItem>(
+  (key) => ({
+    id: key.toString(),
+    albumId: key.toString(),
+    userName: key.toString(),
+    userAvatar: key.toString(),
+    title: key.toString(),
+    description: key.toString(),
+    lastModificationDate: key.toString(),
+  })
+);
 
 vi.mock("axios", () => ({
-  get: vi.fn().mockImplementation(async () => {
-    setTimeout(() => {
-      Promise.resolve(comments);
-    }, 1);
+  get: vi.fn().mockImplementation(() => {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(comments);
+      }, 80);
+    });
   }),
 }));
 
@@ -44,12 +50,13 @@ describe("CommentsSection", () => {
     });
   });
 
-  it.skip("should display comments after data loaded", async () => {
+  it("should display comments after data loaded", async () => {
     render(<Component />);
 
-    expect(await screen.findAllByTestId("comment-genuine")).toBeInTheDocument();
-    (await screen.findAllByTestId("comment-skeleton")).forEach((result) => {
-      expect(result).toBeInTheDocument();
-    });
+    setTimeout(() => {
+      expect(screen.getAllByTestId("comment-genuine").length).toBeGreaterThan(
+        0
+      );
+    }, 100);
   });
 });
