@@ -6,11 +6,11 @@ exports[`AlbumCommentSkeleton > should match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -32,7 +32,7 @@ exports[`AlbumCommentSkeleton > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -49,11 +49,11 @@ exports[`AlbumCommentSkeleton > should match snapshot 1`] = `
   </body>,
   "container": <div>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -75,7 +75,7 @@ exports[`AlbumCommentSkeleton > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"

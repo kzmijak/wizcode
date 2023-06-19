@@ -15,7 +15,7 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
   title,
   userAvatar,
   userName,
-  orientation,
+  orientation = "row",
 }) => {
   const dateComponent = (
     <Typography level="body2">

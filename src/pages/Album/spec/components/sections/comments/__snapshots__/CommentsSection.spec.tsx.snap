@@ -14,11 +14,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         class="MuiDivider-root MuiDivider-horizontal css-10w8je6-JoyDivider-root"
       />
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -40,7 +40,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -54,11 +54,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -80,7 +80,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -94,11 +94,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -120,7 +120,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -134,11 +134,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -160,7 +160,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -174,11 +174,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -200,7 +200,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -214,11 +214,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -240,7 +240,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -254,11 +254,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -280,7 +280,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -294,11 +294,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </article>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-19myurg-JoyStack-root"
         data-testid="comment-skeleton"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-1fpcv8p-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -320,7 +320,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
           />
         </div>
         <div
-          class="MuiStack-root css-zqwuu8-JoyStack-root"
+          class="MuiStack-root css-1bf8ut2-JoyStack-root"
         >
           <div
             class="MuiBox-root css-5xjxzk"
@@ -345,11 +345,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       class="MuiDivider-root MuiDivider-horizontal css-10w8je6-JoyDivider-root"
     />
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -371,7 +371,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -385,11 +385,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -411,7 +411,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -425,11 +425,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -451,7 +451,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -465,11 +465,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -491,7 +491,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -505,11 +505,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -531,7 +531,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -545,11 +545,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -571,7 +571,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -585,11 +585,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -611,7 +611,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"
@@ -625,11 +625,11 @@ exports[`CommentsSection > should match snapshot 1`] = `
       />
     </article>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-19myurg-JoyStack-root"
       data-testid="comment-skeleton"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-1fpcv8p-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorNeutral MuiAvatar-sizeMd css-ayhc9u-JoyAvatar-root"
@@ -651,7 +651,7 @@ exports[`CommentsSection > should match snapshot 1`] = `
         />
       </div>
       <div
-        class="MuiStack-root css-zqwuu8-JoyStack-root"
+        class="MuiStack-root css-1bf8ut2-JoyStack-root"
       >
         <div
           class="MuiBox-root css-5xjxzk"

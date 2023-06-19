@@ -11,7 +11,7 @@ const Paragraph = styled(Box)({
 type AlbumCommentSkeletonProps = Pick<AlbumCommentProps, "orientation">;
 
 export const AlbumCommentSkeleton: FC<AlbumCommentSkeletonProps> = ({
-  orientation,
+  orientation = "row",
 }) => {
   const isVertical = orientation === "column";
   return (

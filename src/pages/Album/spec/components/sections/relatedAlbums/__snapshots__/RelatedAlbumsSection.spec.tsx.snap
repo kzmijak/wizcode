@@ -14,14 +14,14 @@ exports[`RelatedAlbumsSection > should match snapshot 1`] = `
         class="MuiDivider-root MuiDivider-horizontal css-10w8je6-JoyDivider-root"
       />
       <div
-        class="MuiStack-root css-1aqndh-JoyStack-root"
+        class="MuiStack-root css-ipxlt3-JoyStack-root"
       >
         <section
-          class="MuiStack-root css-qg6qii-JoyStack-root"
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-18ev1m-JoyGrid-root"
         >
           <a
             aria-label="title0"
-            class="MuiStack-root css-1vaqcp-JoyStack-root"
+            class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
             href="/0"
           >
             <div
@@ -52,7 +52,7 @@ exports[`RelatedAlbumsSection > should match snapshot 1`] = `
           </a>
         </section>
         <a
-          class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd css-18m3si8-JoyButton-root"
+          class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd css-grtnkv-JoyButton-root"
           href="/"
         >
           Show all
@@ -70,14 +70,14 @@ exports[`RelatedAlbumsSection > should match snapshot 1`] = `
       class="MuiDivider-root MuiDivider-horizontal css-10w8je6-JoyDivider-root"
     />
     <div
-      class="MuiStack-root css-1aqndh-JoyStack-root"
+      class="MuiStack-root css-ipxlt3-JoyStack-root"
     >
       <section
-        class="MuiStack-root css-qg6qii-JoyStack-root"
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-2 css-18ev1m-JoyGrid-root"
       >
         <a
           aria-label="title0"
-          class="MuiStack-root css-1vaqcp-JoyStack-root"
+          class="MuiGrid-root MuiGrid-direction-xs-row css-bqntaw-JoyGrid-root"
           href="/0"
         >
           <div
@@ -108,7 +108,7 @@ exports[`RelatedAlbumsSection > should match snapshot 1`] = `
         </a>
       </section>
       <a
-        class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd css-18m3si8-JoyButton-root"
+        class="MuiButton-root MuiButton-variantSolid MuiButton-colorPrimary MuiButton-sizeMd css-grtnkv-JoyButton-root"
         href="/"
       >
         Show all

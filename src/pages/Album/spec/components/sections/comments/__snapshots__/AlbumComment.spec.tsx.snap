@@ -6,11 +6,11 @@ exports[`AlbumComment > should match snapshot 1`] = `
   "baseElement": <body>
     <div>
       <article
-        class="MuiStack-root css-190okh3-JoyStack-root"
+        class="MuiStack-root css-kg3pic-JoyStack-root"
         data-testid="comment-genuine"
       >
         <div
-          class="MuiStack-root css-490mm2-JoyStack-root"
+          class="MuiStack-root css-8e38t1-JoyStack-root"
         >
           <div
             class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorWarning MuiAvatar-sizeMd css-1w8mgdh-JoyAvatar-root"
@@ -51,11 +51,11 @@ exports[`AlbumComment > should match snapshot 1`] = `
   </body>,
   "container": <div>
     <article
-      class="MuiStack-root css-190okh3-JoyStack-root"
+      class="MuiStack-root css-kg3pic-JoyStack-root"
       data-testid="comment-genuine"
     >
       <div
-        class="MuiStack-root css-490mm2-JoyStack-root"
+        class="MuiStack-root css-8e38t1-JoyStack-root"
       >
         <div
           class="MuiAvatar-root MuiAvatar-variantSolid MuiAvatar-colorWarning MuiAvatar-sizeMd css-1w8mgdh-JoyAvatar-root"
