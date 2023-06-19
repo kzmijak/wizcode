@@ -4,8 +4,8 @@ import { FC, useState } from "react";
 type PictureProps = {
   src: string;
   alt: string;
-  height?: number;
-  width?: number;
+  height?: number | string;
+  width?: number | string;
 };
 
 export const Picture: FC<PictureProps> = ({ alt, src, height, width }) => {

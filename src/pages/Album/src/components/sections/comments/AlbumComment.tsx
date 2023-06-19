@@ -24,7 +24,12 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
       borderRadius={10}
       border={(theme) => `dotted 2px ${theme.palette.divider}`}
     >
-      <Stack spacing={2} width={60} justifyContent="center" alignItems="center">
+      <Stack
+        spacing={2}
+        maxWidth={60}
+        justifyContent="center"
+        alignItems="center"
+      >
         <Avatar
           variant="solid"
           color="warning"

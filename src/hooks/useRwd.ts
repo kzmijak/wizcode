@@ -1,35 +1,55 @@
-import { Breakpoint } from "@mui/system";
+import { useTheme } from "@mui/joy";
 import { useMediaQuery } from "usehooks-ts";
 
-export const useRwd = () => {
-  const isXl = useAbove(1920);
-  const isLg = useAbove(1600);
-  const isMd = useAbove(1280);
-  const isSm = useAbove(686);
-  const isXs = useAbove(1920);
+export type MediaType =
+  | "largeDesktop"
+  | "smallDesktop"
+  | "desktop"
+  | "compact"
+  | "mobile";
 
-  let mediaType: Breakpoint;
+export const useRwd = () => {
+  const {
+    breakpoints: { up, down, between },
+  } = useTheme();
+
+  const isLargeDesktop = useBreakpoint(up(1600));
+  const isSmallDesktop = useBreakpoint(between(1280, 1600));
+  const isDesktop = useBreakpoint(up(1280));
+  const isCompact = useBreakpoint(between(686, 1280));
+  const isMobile = useBreakpoint(down(686));
+
+  let mediaType: MediaType;
 
   switch (true) {
-    case isXl:
-      mediaType = "xl";
+    case isLargeDesktop:
+      mediaType = "largeDesktop";
       break;
-    case isLg:
-      mediaType = "lg";
+    case isSmallDesktop:
+      mediaType = "smallDesktop";
       break;
-    case isMd:
-      mediaType = "md";
+    case isDesktop:
+      mediaType = "desktop";
       break;
-    case isSm:
-      mediaType = "sm";
+    case isCompact:
+      mediaType = "compact";
       break;
     default:
-      mediaType = "xs";
+      mediaType = "mobile";
   }
 
-  return { mediaType, isLg, isXl, isMd, isSm, isXs };
+  return {
+    mediaType,
+    isLargeDesktop,
+    isSmallDesktop,
+    isDesktop,
+    isCompact,
+    isMobile,
+  };
 };
 
-const useAbove = (breakpoint: number) => {
-  return useMediaQuery(`(min-width: ${breakpoint}px)`);
+const useBreakpoint = (mediaQuery: string) => {
+  return useMediaQuery(
+    mediaQuery.slice(mediaQuery.indexOf("("), mediaQuery.indexOf(")"))
+  );
 };
