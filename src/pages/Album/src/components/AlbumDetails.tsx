@@ -10,14 +10,14 @@ type AlbumDetailsProps = AlbumModel;
 
 export const AlbumDetails: FC<AlbumDetailsProps> = (album) => {
   const { isDesktop } = useRwd();
-
+  const childrenOrientation = isDesktop ? "row" : "column";
   return (
     <Stack spacing={2}>
       <Box paddingY={20}>
-        <AlbumInfo {...album} orientation={isDesktop ? "row" : "column"} />
+        <AlbumInfo {...album} orientation={childrenOrientation} />
       </Box>
-      <RelatedAlbumsSection id={album.id} category={album.category} />
-      <CommentsSection {...album} />
+      {/* <RelatedAlbumsSection id={album.id} category={album.category} /> */}
+      <CommentsSection {...album} orientation={childrenOrientation} />
     </Stack>
   );
 };

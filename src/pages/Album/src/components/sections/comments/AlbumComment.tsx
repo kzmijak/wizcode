@@ -2,10 +2,12 @@ import { Avatar, Stack, Typography } from "@mui/joy";
 import { AlbumCommentModel } from "models/AlbumComment";
 import { FC } from "react";
 
-type AlbumCommentProps = Pick<
+export type AlbumCommentProps = Pick<
   AlbumCommentModel,
   "description" | "lastModificationDate" | "title" | "userAvatar" | "userName"
->;
+> & {
+  orientation: "row" | "column";
+};
 
 export const AlbumComment: FC<AlbumCommentProps> = ({
   description,
@@ -13,15 +15,23 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
   title,
   userAvatar,
   userName,
+  orientation,
 }) => {
+  const dateComponent = (
+    <Typography level="body2">
+      {lastModificationDate.toLocaleDateString("pl")}
+    </Typography>
+  );
+
   return (
     <Stack
       data-testid="comment-genuine"
       component="article"
-      direction="row"
+      direction={orientation}
       spacing={3}
       padding={2}
       borderRadius={10}
+      alignItems={orientation === "column" ? "center" : "start"}
       border={(theme) => `dotted 2px ${theme.palette.divider}`}
     >
       <Stack
@@ -39,6 +49,7 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
         <Typography variant="solid" fontFamily="monospace">
           {userName}
         </Typography>
+        {orientation === "column" && dateComponent}
       </Stack>
       <Stack flex={1}>
         <Typography level="h6">{title}</Typography>
@@ -46,9 +57,7 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
           {description}
         </Typography>
       </Stack>
-      <Typography level="body2">
-        {lastModificationDate.toLocaleDateString("pl")}
-      </Typography>
+      {orientation === "row" && dateComponent}
     </Stack>
   );
 };

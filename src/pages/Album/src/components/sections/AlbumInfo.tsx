@@ -6,7 +6,7 @@ import { FC } from "react";
 
 const getTitleLevel = (length: number): keyof TypographySystem => {
   if (length <= 40) {
-    return "display1";
+    return "display2";
   } else if (length <= 100) {
     return "h1";
   } else if (length <= 200) {
