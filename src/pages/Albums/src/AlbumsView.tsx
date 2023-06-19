@@ -1,4 +1,4 @@
-import { LinearProgress, Stack } from "@mui/joy";
+import { CircularProgress, Stack } from "@mui/joy";
 import { AlbumsFiltersBar } from "modules/AlbumsFiltering";
 import { AlbumsTable } from "modules/AlbumsTable";
 import { FC, useState } from "react";
@@ -19,7 +19,7 @@ export const AlbumsView: FC = () => {
 
   const { status } = useAlbumsFetch();
 
-  if (status === "loading") return <LinearProgress />;
+  if (status === "loading") return <CircularProgress />;
   return (
     <Page title="Albums">
       <Stack flexGrow={1} padding={2}>
