@@ -31,6 +31,11 @@ describe("CommentsSection", () => {
     expect(render(<Component />)).toMatchSnapshot();
   });
 
+  it("should have header", () => {
+    render(<Component />);
+    expect(screen.getByText("Comments")).toBeInTheDocument();
+  });
+
   it("should initially display skeleton for comments", () => {
     render(<Component />);
 
