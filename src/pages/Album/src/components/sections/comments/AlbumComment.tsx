@@ -16,6 +16,7 @@ export const AlbumComment: FC<AlbumCommentProps> = ({
 }) => {
   return (
     <Stack
+      data-testId="comment-genuine"
       component="article"
       direction="row"
       spacing={3}
