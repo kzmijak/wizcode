@@ -16,7 +16,7 @@ export const AlbumDetails: FC<AlbumDetailsProps> = (album) => {
       <Box paddingY={20}>
         <AlbumInfo {...album} orientation={childrenOrientation} />
       </Box>
-      {/* <RelatedAlbumsSection id={album.id} category={album.category} /> */}
+      <RelatedAlbumsSection id={album.id} category={album.category} />
       <CommentsSection {...album} orientation={childrenOrientation} />
     </Stack>
   );

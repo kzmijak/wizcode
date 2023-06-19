@@ -17,7 +17,7 @@ const getTitleLevel = (length: number): keyof TypographySystem => {
 };
 
 type AlbumInfoProps = Pick<AlbumModel, "artistName" | "imageUrl" | "title"> & {
-  orientation: "row" | "column";
+  orientation?: "row" | "column";
 };
 
 export const AlbumInfo: FC<AlbumInfoProps> = ({

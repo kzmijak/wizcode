@@ -6,12 +6,17 @@ import { RowTooltipContent } from "./RowTooltipContent";
 import { TableRowStyled } from "./styles/TableRowStyled";
 import { useNavigate } from "react-router";
 
-type TableBodyProps = {
+export type TableBodyProps = {
   allRows: AlbumsTableRow[];
   displayedRows: AlbumsTableRow[];
+  tooltipPlacement?: "right" | "bottom";
 };
 
-export const TableBody: FC<TableBodyProps> = ({ allRows, displayedRows }) => {
+export const TableBody: FC<TableBodyProps> = ({
+  allRows,
+  displayedRows,
+  tooltipPlacement = "bottom",
+}) => {
   const navigate = useNavigate();
 
   return (
@@ -22,7 +27,7 @@ export const TableBody: FC<TableBodyProps> = ({ allRows, displayedRows }) => {
           color="primary"
           title={<RowTooltipContent {...row} />}
           key={row.id}
-          placement="right"
+          placement={tooltipPlacement}
         >
           <TableRowStyled onClick={() => navigate(row.id)}>
             <IndexCell currentRow={row} rows={allRows} />

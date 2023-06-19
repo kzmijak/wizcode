@@ -23,9 +23,13 @@ export const RelatedAlbumsSection: FC<RelatedAlbumsSectionProps> = (album) => {
     <>
       <Typography level="h4">Other albums you may like</Typography>
       <Divider />
-      <Stack direction="row" justifyContent="space-between">
+      <Stack direction="row" justifyContent="space-between" alignItems="center">
         <AlbumsShowcase albums={relatedAlbums} />
-        <Button component={Link} to={PATH_APP.root}>
+        <Button
+          component={Link}
+          to={PATH_APP.root}
+          sx={{ textAlign: "center" }}
+        >
           Show all
         </Button>
       </Stack>

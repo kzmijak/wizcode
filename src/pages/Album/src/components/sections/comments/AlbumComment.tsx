@@ -6,7 +6,7 @@ export type AlbumCommentProps = Pick<
   AlbumCommentModel,
   "description" | "lastModificationDate" | "title" | "userAvatar" | "userName"
 > & {
-  orientation: "row" | "column";
+  orientation?: "row" | "column";
 };
 
 export const AlbumComment: FC<AlbumCommentProps> = ({

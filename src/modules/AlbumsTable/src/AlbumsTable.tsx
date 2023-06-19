@@ -2,14 +2,18 @@ import { Table } from "@mui/joy";
 import { FC } from "react";
 import { AlbumsTableRow } from "./models/AlbumsTableRow";
 import { TableHeader } from "./components/TableHeader";
-import { TableBody } from "./components/TableBody";
+import { TableBody, TableBodyProps } from "./components/TableBody";
 
 type AlbumsTableProps = {
   rows: AlbumsTableRow[];
   displayedRows: AlbumsTableRow[];
-};
+} & Pick<TableBodyProps, "tooltipPlacement">;
 
-export const AlbumsTable: FC<AlbumsTableProps> = ({ rows, displayedRows }) => (
+export const AlbumsTable: FC<AlbumsTableProps> = ({
+  rows,
+  displayedRows,
+  tooltipPlacement,
+}) => (
   <Table
     aria-label="albums table"
     borderAxis="none"
@@ -21,6 +25,10 @@ export const AlbumsTable: FC<AlbumsTableProps> = ({ rows, displayedRows }) => (
     hoverRow
   >
     <TableHeader />
-    <TableBody allRows={rows} displayedRows={displayedRows} />
+    <TableBody
+      allRows={rows}
+      displayedRows={displayedRows}
+      tooltipPlacement={tooltipPlacement}
+    />
   </Table>
 );

@@ -10,12 +10,14 @@ import {
   useAlbumsFetch,
 } from "modules/AlbumsState";
 import { Page } from "components/Page";
+import { useRwd } from "hooks/useRwd";
 
 export const AlbumsView: FC = () => {
   const [search, setSearch] = useState("");
   const albums = useRecoilValue(albumsState);
   const uniqueCategories = useRecoilValue(uniqueAlbumsCategoriesState);
   const filteredAlbums = useFilteredAlbums(albums, search);
+  const { isLargeDesktop } = useRwd();
 
   const { status } = useAlbumsFetch();
 
@@ -28,7 +30,11 @@ export const AlbumsView: FC = () => {
           onSearchChange={setSearch}
           allCategories={uniqueCategories}
         />
-        <AlbumsTable displayedRows={filteredAlbums} rows={albums} />
+        <AlbumsTable
+          displayedRows={filteredAlbums}
+          rows={albums}
+          tooltipPlacement={isLargeDesktop ? "right" : "bottom"}
+        />
       </Stack>
     </Page>
   );

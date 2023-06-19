@@ -6,7 +6,6 @@ const Paragraph = styled(Box)({
   backgroundColor: "lightgray",
   height: "1em",
   minWidth: 70,
-  // width: "100%",
 });
 
 type AlbumCommentSkeletonProps = Pick<AlbumCommentProps, "orientation">;
